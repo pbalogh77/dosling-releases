@@ -8,14 +8,16 @@ files only; Dosling's source code is not published here.
 
 | Release | What it is |
 |---|---|
+| [Dosling for Mac 0.7.0](https://github.com/pbalogh77/dosling-releases/releases/tag/mac-v0.7.0) | Preview of the Mac app: universal (Apple silicon and Intel), macOS 12 or later, signed with Developer ID and notarized. |
 | [Dosling Web 0.1.0](https://github.com/pbalogh77/dosling-releases/releases/tag/web-v0.1.0) | Preview of the WebAssembly player. Play it at https://dosling.com/play/ or self-host the static folder. |
 
-The Mac and iOS apps are in development and are not publicly released yet.
+The iPhone and iPad app is in development and has no public release yet.
 
 ## What's included
 
 - MS-DOS 4.0, built from Microsoft's open-source, MIT-licensed release.
-- No games. Import games you have the right to use. Freeware and shareware
+- No commercial games. The Mac app bundles Floppy Bird (MIT licence); the web
+  player bundles no games. Import games you have the right to use. Freeware and shareware
   labels don't automatically allow redistribution.
 
 ## Third-party licences
@@ -23,7 +25,8 @@ The Mac and iOS apps are in development and are not publicly released yet.
 Each release includes `THIRD_PARTY_NOTICES.txt` and the full licence texts.
 Nuked OPL3 is LGPL-2.1-or-later. Every web release ships a relink kit with the
 Dosling object files, a link script and the complete library source, so you can
-relink a modified copy.
+relink a modified copy. The Mac app ships Nuked OPL3 and HQx as replaceable
+dynamic libraries, with their source and a rebuild script inside the app.
 
 ## Verifying downloads
 
