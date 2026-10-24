@@ -9,7 +9,7 @@ files only; Dosling's source code is not published here.
 | Release | What it is |
 |---|---|
 | [Dosling for Mac 0.7.0](https://github.com/pbalogh77/dosling-releases/releases/tag/mac-v0.7.0) | Preview of the Mac app: universal (Apple silicon and Intel), macOS 12 or later, signed with Developer ID and notarized. |
-| [Dosling Web 0.2.0](https://github.com/pbalogh77/dosling-releases/releases/tag/web-v0.2.0) | Preview of the WebAssembly player with the Mac app's interface, Discover, and per-game touch and gamepad layouts. Play it at https://dosling.com/play/ or self-host the static folder. |
+| [Dosling Web 0.3.0](https://github.com/pbalogh77/dosling-releases/releases/tag/web-v0.3.0) | Preview of the WebAssembly player with the Mac app's interface, saved sessions, Discover, and per-game touch and gamepad layouts. Play it at https://dosling.com/play/ or self-host the static folder. |
 
 The iPhone and iPad app is in development and has no public release yet.
 
